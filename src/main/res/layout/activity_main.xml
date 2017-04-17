@@ -52,7 +52,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="105dp"
         android:layout_marginTop="8dp"
-        android:text="Name"
+        android:text="Name:"
         app:layout_constraintBottom_toTopOf="@+id/nameInput"
         app:layout_constraintHorizontal_bias="0.709"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -118,7 +118,7 @@
         app:layout_constraintRight_toRightOf="parent">
 
         <RadioButton
-            android:id="@+id/radioButton5"
+            android:id="@+id/developerYes"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="YES"
@@ -126,10 +126,10 @@
             tools:layout_editor_absoluteY="463dp" />
 
         <RadioButton
-            android:id="@+id/radioButton6"
+            android:id="@+id/developerNo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="RadioButton"
+            android:text="No"
             tools:layout_editor_absoluteX="147dp"
             tools:layout_editor_absoluteY="427dp" />
     </RadioGroup>
